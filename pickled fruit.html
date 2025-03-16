@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryDong</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--css-->
+    <link rel="stylesheet" href="asset/mystyle.css" />
+    <link rel="stylesheet" href="asset/modal.css">
+    
+</head>
+
+<body>
+
+    <!--header-->
+    <header class="header">
+        <a href="index.html"><img src="image/logo.png" alt="Logo" class="logo"></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#products">products</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>ขิงดอง</h3>
+                    <span class="price">100 THB</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">300 THB</span>
+                    <span class="quantity">qty : 3</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">ส้ม</span>
+                    <span class="quantity">qty : 2</span>
+                </div>
+            </div>
+            <div class="total"> total : 1200 THB</div>
+            <a href="checkout.html" class="btn" style="font-size: 1.5vw;">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and <span>pickles</span> products for your</h3>
+            <p><strong>ยินดีต้อนรับเข้าสู่ EveryDong Market</strong> ของดองคุณภาพ สด สะอาด ได้มาตรฐานที่มีผัก ผลไม้ดอง และแช่อิ่มให้คุณได้เลือกซื้อสินค้าของเราได้อย่างเต็มที่ พร้อมโปรโมชั่นหลากหลายให้คุณได้เลือกใช้ !</p>
+            
+        </div>
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> product <span></span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/1_1.PNG" alt="">
+                <h3>มะม่วงดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>ปริมาณ 1 กิโลกรัม มะม่วง กรอบ อร่อย พันธุ์เขียวเสวย ส่งตรงจากจังหวัดฉะเชิงเทรา </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_2.PNG" alt="">
+                <h3>มะขามดอง</h3>
+                <p>ราคา 100 บาท</p>
+                <p>ปริมาณ 1 กิโลกรัม มะขามเปรี้ยวยักษ์ จากเมืองกาญจน์ อร่อย กลิ่นหอม ทานเพลินนนน</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_3.PNG" alt="">
+                <h3>องุ่นดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม สายพันธุ์คุณภาพจากสวนในจังหวัดชลบุรี ปลูกอย่างออแกนิค ไร้สารฆ่าแมลง รับประกันความกรอบ</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_4.PNG" alt="">
+                <h3>พุทราดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>
+                    ขนาด 500 กรัม(ครึ่งกิโลกรัม) 
+                    ชิ้นใหญ่ สดใหม่ สะอาด กรอบ อร่อย ยิ่งแช่เย็นยิ่งอร่อย </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_5.PNG" alt="">
+                <h3>มะกอกดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม มะกอกดอง  สูตรออร์แกนิค ปลอดภัยไร้สาร
+                    กรอบอร่อย ขนาดชิ้นพอดีทาน</p>
+                <a href="pickled fruit.html" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_6.PNG" alt="">
+                <h3> มะดันดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม มะดันดอง ผ่าซีก 
+                    รสชาติเปรี้ยว อมหวานนิดหน่อย
+                    กรอบอร่อย </p>
+                <a href="pickles.html" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_7.PNG" alt="">
+                <h3> มะยมดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p> ปริมาณ 1 กิโลกรัม มะยมดองตามสูตรต้นตำรับโบราณไม่ใส่สี ไม่ใส่สารกันบูด ทำให้รสชาติของผลไม้ กรอบ อร่อย</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_8.PNG" alt="">
+                <h3>มะม่วงเบาดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม คัดสรรมะม่วงลูกอ่อน คุณภาพอย่างดี แช่อิ่มตามสูตรโบราณ รสชาติเปรี้ยว อมหวาน ได้ลองแล้วจะติดใจ</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_10.PNG" alt="">
+                <h3> กระท้อนดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>ปริมาณ 1 กิโลกรัม สินค้าสดใหม่ไม่มีค้างสต็อค ดองธรรมชาติ ไม่มีสารฟอก ไม่เหม็น ขึ้นจมูก ไม่ขมปลายลิ้น</p>
+                <a href="pickled fruit.html" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/1_9.PNG" alt="">
+                <h3> มะปรางดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>ปริมาณ 1 กิโลกรัม มะปรางดองเกลือ ธรรมชาติ ไม่ปรุงแต่ง มีรสชาติ เปรี้ยว-เค็ม เนื้อมะปรางมีความกรอบเล็กน้อย-ปานกลาง ชิ้นเล็กใหญ่คละกัน </p>
+                <a href="pickles.html" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> EveryDong Market <i class="fas fa-shopping-basket"></i> </h3>
+                <p>EveryDong Market ของดองคุณภาพ สด สะอาด ได้มาตรฐานที่มีผัก ผลไม้ดอง และแช่อิ่มให้คุณได้เลือกซื้อสินค้าของเราได้อย่างเต็มที่ พร้อมโปรโมชั่นหลากหลายให้คุณได้เลือกใช้ !</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +66 67 185 7904 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> EveryDong@gmail.com </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> EveryDong Market </span> | marinate </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--custom js file link-->
+    <script src="asset/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryDong</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--css-->
+    <link rel="stylesheet" href="asset/mystyle.css" />
+</head>
+
+<body>
+
+    <!--header-->
+    <header class="header">
+        <a href="index.html"><img src="image/logo.png" alt="Logo" class="logo"></a>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="#products">products</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>ขิงดอง</h3>
+                    <span class="price">100 THB</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>แซลมอนดอง</h3>
+                    <span class="price">300 THB</span>
+                    <span class="quantity">qty : 3</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>ส้ม</h3>
+                    <span class="price">100 THB</span>
+                    <span class="quantity">qty : 2</span>
+                </div>
+            </div>
+            <div class="total"> total : 1200 THB</div>
+            <a href="checkout.html" class="btn" style="font-size: 1.5vw;">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>fresh and <span>pickles</span> products for your</h3>
+            <p><strong>ยินดีต้อนรับเข้าสู่ EveryDong Market</strong> ของดองคุณภาพ สด สะอาด ได้มาตรฐานที่มีผัก ผลไม้ดอง และแช่อิ่มให้คุณได้เลือกซื้อสินค้าของเราได้อย่างเต็มที่ พร้อมโปรโมชั่นหลากหลายให้คุณได้เลือกใช้ !</p>
+            
+        </div>
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> product <span></span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/2_1.png" alt="">
+                <h3>ผักกาดดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม จาก "ไร่ผักกาดเขียวปลี" สู่ "กระบวนการผลิตที่สะอาด ผักกาดดองคุณภาพ ไม่เจือสี</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_2.PNG" alt="">
+                <h3> แตงกวาดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม ผลิตจากแตงกวาคุณภาพดีคัดพิเศษ
+                    แตงกวาดองคุณภาพดีพร้อมรับประทาน
+                    รสอร่อยที่มาพร้อมเนื้อสัมผัสกรุบกรอบ</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_3.PNG" alt="">
+                <h3>ไชเท้าดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>ปริมาณ 1 กิโลกรัม ไชเท้าดอง เกรดพรีเมี่ยม เปรี้ยว หวาน 
+                    ไม่ว่าจะทานเล่น หรือทานในรูปแบบปิ้งย่างสไตล์เกาหลี
+                    ก็สามารถทานได้อย่างอร่อยๆ </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_4.PNG" alt="">
+                <h3> ขิงดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>ปริมาณ 1 กิโลกรัม ขิงดอง สืบทอดสูตรลับแห่งความอร่อย
+                    มายาวนานกว่า 40 ปี ส่งตรงจากประเทศเกาหลี 
+                    พร้อมเสิร์ฟให้คุณถึงหน้าบ้าน
+                    
+                </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_5.PNG" alt="">
+                <h3>ผักดองสามรส</h3>
+                <p>ราคา 100 บาท</p>
+                <p>ปริมาณ 1 กิโลกรัม ผักดองสามรส เครื่องเคียงคู่กับขนมจีนภาคใต้
+                    รสชาติหวานๆ เปรี้ยวๆ และไม่เค็มเกินไป ถูกใจท่านแน่นอน
+                </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_6.PNG" alt="">
+                <h3>แครอทดอง</h3>
+                <p>ราคา 100 บาท  </p>
+                <p>ปริมาณ 1 กิโลกรัม แครอทดอง หวาน กรอบ
+                    เปรี้ยวกำลังดี เก็บได้นานเป็นเดือนๆ
+                </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_7.PNG" alt="">
+                <h3>กระเทียมดอง</h3>
+                <p>ราคา 100 บาท</p>
+                <p>ปริมาณ 1 กิโลกรัม กระเทียมดอง หัวกระเทียมแน่น สีเหลืองอ่อน สด
+                    ไม่มีเชื้อรา ประโยชน์หลากหลาย มากมายสรรพคุณทางยา
+                </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_8.PNG" alt="">
+                <h3> กะหล่ำปลีดอง</h3>
+                <p>ราคา 100 บาท</p>
+                <p>ปริมาณ 1 กิโลกรัม กะหล่ำปลีดอง จะทานเป็นเครื่องเคียงก็ได้ หรือ
+                    จะเป็นส่วนประกอบในอาหารก็ดี ช่วยแก้ความเลี่ยนของอาหารอีกด้วย
+                </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_9.PNG" alt="">
+                <h3>ผักเสี้ยนดอง</h3>
+                <p>ราคา 100 บาท </p>
+                <p>ปริมาณ 1 กิโลกรัม ผักเสี้ยนดอง มีรสเปรี้ยวกำลังดี สินค้าพื้นเมือง 
+                    ให้คุณค่าทางโภชนาการ มีวิตามิน A และ C สูงมาก รวมทั้งแคลเซียมและเหล็ก 
+                    เหมาะสำหรับทานเป็นเครื่องเคียงสำหรับอาหาร</p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="image/2_10.PNG" alt="">
+                <h3>สะตอดอง</h3>
+                <p>ราคา 100 บาท</p>
+                <p>ปริมาณ 1 กิโลกรัม สะตอดอง จากปักษ์ใต้ รับรองจะต้องร้องว่า “หรอยจังฮู้”
+                    ใช้สะตอที่แก่จัด หรือสุก เม็ดใหญ่ เม็ดตึง อวบ แน่น ไม่เละ ไม่มีหนอน
+                    รสชาติหวาน มัน เปรี้ยวนิดๆ จะทานคู่กับน้ำพริกกะปิ ตำลาว ตำป่า ก็เข้ากันที่สุด
+                </p>
+                <a href="#" class="btn" style="font-size: 1.5vw;">Add to Cart</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> EveryDong Market <i class="fas fa-shopping-basket"></i> </h3>
+                <p>EveryDong Market ของดองคุณภาพ สด สะอาด ได้มาตรฐานที่มีผัก ผลไม้ดอง และแช่อิ่มให้คุณได้เลือกซื้อสินค้าของเราได้อย่างเต็มที่ พร้อมโปรโมชั่นหลากหลายให้คุณได้เลือกใช้ !</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +66 67 185 7904 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> EveryDong@gmail.com </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> EveryDong Market </span> | marinate </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--custom js file link-->
+    <script src="asset/script.js"></script>
+
+</body>
+
+</html>
